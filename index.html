@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/264161/OrbitControls.js"></script>
+    <script src="./index.js"></script>
+    <title>CG ---- Project</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates');
+        body {
+            background: #e0dacd;
+            overflow: auto;
+        }
+
+        .documentationLink {
+            all: unset;
+            position: absolute;
+            top: 75vh;
+            width: 40vw;
+            left: 30vw;
+            font-size: 2rem;
+            font-family: 'Montserrat Alternates', sans-serif;
+            cursor: pointer;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body onload="start()">
+    <div id="world"></div>
+    <a href="documentation.html" class="documentationLink"> Please click here for Documentation</a>
+</body>
+</html>
